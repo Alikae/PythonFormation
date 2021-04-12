@@ -1,0 +1,2 @@
+Trier un tableau de plein de types en [strs] [ints] [others] + testfile pour tester leur fonction
+reverse each word in a string (split, rev, join)
