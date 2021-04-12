@@ -1,0 +1,12 @@
+pip update
+pip install packageName
+# "--user": installation seulement pour le user courant.
+# Cela solve certains problèmes de droit d'accès. 
+pip install --user packageName
+pip uninstall packageName
+
+# On peut lister l'ensemble des dépendances récursivement importées par le projet avec:
+pigar -P .
+# (On l'installe avec "pip install pigar")
+# Pigar génère un "requirements.txt" utilisable ainsi:
+pip install -r requirements.txt

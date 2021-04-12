@@ -1,0 +1,4 @@
+créer une fonction qui prend un tableau:
+    pour chaque float a l'intérieur le remplace par son inverse,
+    pour chaque string la reverse,
+    pour chaque int lui ajoute 3, le tout par lambdas.

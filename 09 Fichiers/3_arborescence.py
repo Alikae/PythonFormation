@@ -16,6 +16,4 @@ for root, dirs, files in os.walk(working_path):
             shutil.copy(f"{working_path}/{name}", f"{working_path}/{name[:-3]}.backup")
 
 
-# shutil.copy -> 
-
 # zlib -> module de compression de données très utilisé.

@@ -1,0 +1,2 @@
+ecrire une fonction qui prend des args variadiques et les trie en fonction du type dans un dictionnaire dont les clés sont le nom des types, puis les affiche.
+Suite: inclure les kargs et les stocker sous la forme d'un tuple (clé, valeur)

@@ -1,5 +1,0 @@
-pip update
-pip install packageName
-pip install --user packageName
-pip install -r requirements.txt (pigar?) -> pigar -P .
-pip uninstall packageName

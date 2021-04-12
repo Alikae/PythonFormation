@@ -9,6 +9,8 @@
 # "w+" pour lire ET créer 
 
 print(open.__doc__)
+# L'UTF8 est la norme d'encodage des caractères utilisée dans plus de 95% des sites web en 2020.
+# A moins qu'on ait vraiment besoin d'autre chose, on choisit UTF8.
 mon_fichier = open("09 Fichiers/test", "r", encoding="utf-8")
 print(mon_fichier)
 
