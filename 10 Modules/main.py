@@ -1,3 +1,6 @@
+# La variable __name__ contient soit "__main__" pour le module principal lancé,
+# soit le nom du module pour tout les modules importés.
+
 print(f"Module '{__name__}': Ce code sera exécuté une seule fois si ce module est importé au moins une fois.")
 print("Ce code permet la plupart du temps d'initialiser le module.")
 
